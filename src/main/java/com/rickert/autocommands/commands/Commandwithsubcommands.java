@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.annotation.command.Commands;
 
 import static org.bukkit.Bukkit.getServer;
 
-@Commands(@Command(name = "withsubcommands", desc = "Command with " + "subcommands"))
+@Commands(@Command(name = "withsubcommands", desc = "Command with subcommands"))
 public class Commandwithsubcommands extends PluginCommand {
 
     public Commandwithsubcommands() {
