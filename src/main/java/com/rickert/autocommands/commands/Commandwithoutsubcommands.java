@@ -3,6 +3,7 @@ package com.rickert.autocommands.commands;
 import com.rickert.autocommands.CommandSource;
 import org.bukkit.Server;
 
+@Commands(@Command(name = "withoutsubcommands", desc = "Command without subcommands"))
 public class Commandwithoutsubcommands extends PluginCommand{
 
     public Commandwithoutsubcommands() {
